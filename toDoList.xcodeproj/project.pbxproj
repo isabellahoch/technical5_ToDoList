@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		18B28E6022D92E5300F3D20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B28E5F22D92E5300F3D20C /* AppDelegate.swift */; };
-		18B28E6222D92E5300F3D20C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B28E6122D92E5300F3D20C /* ViewController.swift */; };
 		18B28E6522D92E5300F3D20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B28E6322D92E5300F3D20C /* Main.storyboard */; };
 		18B28E6822D92E5300F3D20C /* toDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18B28E6622D92E5300F3D20C /* toDoList.xcdatamodeld */; };
 		18B28E6A22D92E5500F3D20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B28E6922D92E5500F3D20C /* Assets.xcassets */; };
 		18B28E6D22D92E5600F3D20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B28E6B22D92E5600F3D20C /* LaunchScreen.storyboard */; };
+		18B28E7722D9306300F3D20C /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B28E7622D9306300F3D20C /* ToDo.swift */; };
+		18B28E7922D931FF00F3D20C /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B28E7822D931FF00F3D20C /* ToDoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18B28E5C22D92E5300F3D20C /* toDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B28E5F22D92E5300F3D20C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18B28E6122D92E5300F3D20C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18B28E6422D92E5300F3D20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B28E6722D92E5300F3D20C /* toDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = toDoList.xcdatamodel; sourceTree = "<group>"; };
 		18B28E6922D92E5500F3D20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B28E6C22D92E5600F3D20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B28E6E22D92E5600F3D20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B28E7622D9306300F3D20C /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		18B28E7822D931FF00F3D20C /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				18B28E5F22D92E5300F3D20C /* AppDelegate.swift */,
-				18B28E6122D92E5300F3D20C /* ViewController.swift */,
 				18B28E6322D92E5300F3D20C /* Main.storyboard */,
 				18B28E6922D92E5500F3D20C /* Assets.xcassets */,
 				18B28E6B22D92E5600F3D20C /* LaunchScreen.storyboard */,
 				18B28E6E22D92E5600F3D20C /* Info.plist */,
 				18B28E6622D92E5300F3D20C /* toDoList.xcdatamodeld */,
+				18B28E7622D9306300F3D20C /* ToDo.swift */,
+				18B28E7822D931FF00F3D20C /* ToDoTableViewController.swift */,
 			);
 			path = toDoList;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B28E6222D92E5300F3D20C /* ViewController.swift in Sources */,
 				18B28E6822D92E5300F3D20C /* toDoList.xcdatamodeld in Sources */,
+				18B28E7922D931FF00F3D20C /* ToDoTableViewController.swift in Sources */,
 				18B28E6022D92E5300F3D20C /* AppDelegate.swift in Sources */,
+				18B28E7722D9306300F3D20C /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
