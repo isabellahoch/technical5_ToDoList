@@ -22,11 +22,11 @@ class ToDoTableViewController: UITableViewController {
         brainBreak.name = "take a brain break"
         brainBreak.important = true
         
-        let burrito = ToDo()
-        burrito.name = "order a burrito on caviar"
+        let feedFosterPuppy = ToDo()
+        feedFosterPuppy.name = "feed and play with foster puppy"
         // important is set to false by default
         
-        return [brainBreak, burrito]
+        return [brainBreak, feedFosterPuppy]
     }
     
     func getToDos() {
@@ -56,10 +56,11 @@ class ToDoTableViewController: UITableViewController {
         
         if let name = toDo.name {
             if toDo.important {
-                cell.textLabel?.text = "❗️ \(toDo.name)"
+                cell.textLabel?.text = "❕ \(toDo.name!)"
             }
             else {
-                cell.textLabel?.text = toDo.name
+                cell.textLabel?.text = toDo.name!
+                cell.textLabel?.textColor = UIColor.darkGray
             }
         }
 
